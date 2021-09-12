@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+.background {
+  width: 100vw;
+  min-height: 110vh;
+  border: 0.1px solid #4a4e69;
+  background-size: cover;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.7+0,0.2+25,0.05+50,0.2+75,0.7+100 */
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 25%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.2) 75%,
+    rgba(0, 0, 0, 0.7) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 25%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.2) 75%,
+    rgba(0, 0, 0, 0.7) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.2) 25%,
+      rgba(0, 0, 0, 0.05) 50%,
+      rgba(0, 0, 0, 0.2) 75%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("./images/Akira\ 1.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=1 ); /* IE6-9 */
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#AKIRA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+
+#AKIRA > div {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 5px solid #f2e9e4b4;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+#AKIRA > #akiraPic {
+  border-radius: 5px;
+  width: 290px;
+  height: 386px;
+  margin: 0px;
+}
+#AKIRA > #akiraText {
+  margin-top: 40px;
+  border-style: none;
+  width: 50vw;
+}
+#AKIRA > #akiraText > h1 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 0px;
+}
+#AKIRA > #akiraText > #list {
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  color: #f2e9e4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#AKIRA > #akiraText > #list > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1200px) {
+  #AKIRA > #akiraText {
+    height: 300px;
+    text-align: center;
+    width: 100vw;
+    padding: 0;
+  }
+  #AKIRA > #akiraText > h1 {
+    line-height: 0px;
+  }
+  #AKIRA > #akiraText > #list {
+    width: 100vw;
+  }
+}
