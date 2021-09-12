@@ -1,0 +1,54 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap");
+/* Font: Lato */
+
+/* @media screen and (min-width: ) {
+} */
+/* use when its time to think about going mobile */
+
+body {
+  background-color: #f2e9e4;
+  margin: 0;
+}
+.top {
+  border-bottom: solid;
+  border-width: 5px;
+  border-color: #4a4e69;
+  width: 100vw;
+  height: 150px;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #22223b;
+  align-items: baseline;
+  justify-content: start;
+}
+#Top {
+  color: #f2e9e4;
+  border: none;
+}
+#huskyLogo {
+  border: none;
+}
+div.top {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  padding: 50px 25px;
+}
+a.topHover:hover {
+  transform: translateY(1%);
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+}
+#Top:active {
+  border: none;
+  color: #c9ada7;
+  transform: translateY(3%);
+}
+#huskyLogo:active {
+  transform: translateY(3%);
+}
